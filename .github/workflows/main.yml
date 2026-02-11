@@ -21,7 +21,7 @@ jobs:
 
     steps:
     - uses: actions/checkout@v3
-
+    
     - name: Install Rust
       uses: dtolnay/rust-toolchain@stable
       with:
@@ -29,8 +29,13 @@ jobs:
 
     - name: Build
       run: cargo build --release --target ${{ matrix.target }}
-
     - name: Upload Artifact
+      uses: actions/upload-artifact@v3
+      with: 
+        name: ${{ matrix.target }}-binary
+        path: target/${{ matrix.target }}/release/vaxguide_cli
+
+        
       uses: actions/upload-artifact@v3
       with:
         name: ${{ matrix.target }}-binary
