@@ -32,6 +32,18 @@ The application uses simplified decision logic inspired by public vaccination gu
 - Optional commercial extension hint (clinic finder link)
 
 ---
+## 🚀 Why VaxGuide? (Value Proposition)
+Moving to a new country is stressful. Visa officers check your passport, but **no one checks your health risks**—until it's too late. 
+
+* **For Students:** Ensure you meet university enrollment standards (Masernschutzgesetz).
+* **For Expats:** specific alerts for regional risks (like FSME in Bavaria) that generic apps miss.
+* **For HR Departments:** Reduce sick days by ensuring your international staff is immunized.
+
+## 💰 Business Model
+VaxGuide is free for individuals, supported by a **Health-Connect Affiliate Model**:
+1.  **Lead Generation:** We connect users with verified, English-speaking clinics for missing vaccinations.
+2.  **Premium Partners:** Local clinics pay a referral fee for every appointment booked through our "Find a Clinic" feature.
+
 
 ## Implemented Vaccination Logic
 
